@@ -1,0 +1,106 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: darkmagenta;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    background-color: cadetblue;
+    border: 2px solid blue;
+}
+
+h2 {
+    text-align: left;
+    color: wheat;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 150px;
+    border: dotted powderblue;
+  
+}
+
+.container div {
+    border: solid rgb(0, 255, 0);
+    width: 50px;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 23%;
+    background-color: rgb(17, 0, 255);
+    padding: 10px;
+    transition: transform 0.5s ease-in-out;
+    flex: 1 1 250px;
+    box-shadow: 0 4px 8px rgb(224, 202, 3);
+
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+input {
+    display: block;
+    width: 60%;
+    padding: 20px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tea img {
+    display: block;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border: 5px saddlebrown;
+}
+
+.tea {
+    border: 10px rgb(0, 252, 42);
+}
+
+.ar {
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    border: solid 5px rgb(0, 0, 0);
+    color: rgb(0, 4, 255);
+    background-color: rgb(255, 236, 126);
+}
+
+.a:hover {
+    transform: scale(1.05);
+    border-color: red;
+}
+video{display: flex;
+transition: transform 5s;}
+
+video{border: solid blanchedalmond;
+transition: transform 0.5s ease-out;}
+
+video:hover {
+    transform: scale(1.05);
+    border-color: red;}
+
+    video{ display: block;
+    margin-right: auto;
+    margin-left: auto;}
+
+    
